@@ -99,8 +99,11 @@ class RootSamplingTest(unittest.TestCase):
             ],
             dtype=np.float64,
         )
-        np.testing.assert_array_equal(angle, expected_angle)
-        np.testing.assert_array_equal(light, expected_light)
+        # NumPy versions may round the affine transform in ``uniform`` one
+        # ULP differently. Exact repeatability within one stack is covered by
+        # the test above; this fixture protects the seeded values themselves.
+        np.testing.assert_allclose(angle, expected_angle, rtol=0.0, atol=1e-15)
+        np.testing.assert_allclose(light, expected_light, rtol=0.0, atol=1e-15)
 
     def test_different_seeds_produce_different_worlds(self) -> None:
         first = sample_observational(50, np.random.Generator(np.random.PCG64(1)), self.config)
