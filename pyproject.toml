@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pendulum-counterfactuals"
+version = "0.1.0"
+description = "Deterministic paired factual/counterfactual Pendulum image generation from a known structural causal model"
+readme = "README.md"
+license-files = [
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_LICENSES/huawei-pendulum-MIT-NOTICE.txt",
+]
+requires-python = ">=3.9"
+authors = [{ name = "Halla Emilia Ingolfsdottir" }]
+# See LICENSE: MIT is proposed for this project's own contributions but not
+# yet finalized. THIRD_PARTY_LICENSES/ covers the adapted renderer/constants.
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "Pillow>=9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+pendulum-cf = "pendulum_counterfactuals.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

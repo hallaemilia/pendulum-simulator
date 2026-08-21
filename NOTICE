@@ -1,0 +1,23 @@
+pendulum-counterfactuals
+Copyright (c) 2026 Halla Emilia Ingolfsdottir (this project's own contributions)
+
+This project's Pendulum renderer and "huawei-grid" preset are adapted from
+a file in huawei-noah/trustworthyAI licensed under the MIT License:
+
+  Copyright (C) 2021. Huawei Technologies Co., Ltd. All rights reserved.
+
+See THIRD_PARTY_LICENSES/huawei-pendulum-MIT-NOTICE.txt for the full notice
+and license text, and UPSTREAM.md for the complete provenance assessment.
+The containing huawei-noah/trustworthyAI repository is licensed Apache-2.0
+at its root.
+
+This project also cites, without deriving code from:
+- DEAR (https://github.com/xwshen51/DEAR), Apache-2.0.
+- The CausalVAE paper (Yang, Liu, Chen, Shen, Hao, Wang; CVPR 2021).
+
+IMPORTANT: see LICENSE for this project's own licensing status. A license
+for this project's independently written contributions is proposed (MIT)
+but not yet finalized by the maintainer.
+
+This project is not affiliated with, endorsed by, or reviewed by Huawei
+Technologies Co., Ltd., the CausalVAE authors, or the DEAR authors.

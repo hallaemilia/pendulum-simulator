@@ -1,0 +1,6 @@
+include CITATION.cff
+include LICENSE
+include NOTICE
+include README.md
+include UPSTREAM.md
+recursive-include THIRD_PARTY_LICENSES *.txt
