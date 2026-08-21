@@ -1,0 +1,45 @@
+This project's renderer (pendulum_counterfactuals/renderer.py) and the
+"huawei-grid" preset (pendulum_counterfactuals/config.py) are adapted from:
+
+  research/CausalVAE/causal_data/pendulum.py
+  https://github.com/huawei-noah/trustworthyAI/blob/master/research/CausalVAE/causal_data/pendulum.py
+
+That file carries the following notice, reproduced verbatim as required by
+the MIT License referenced in it:
+
+  Copyright (C) 2021. Huawei Technologies Co., Ltd. All rights reserved.
+  This program is free software;
+  you can redistribute it and/or modify
+  it under the terms of the MIT License.
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT License for more details.
+
+The full MIT License text referenced above:
+
+  MIT License
+
+  Copyright (c) 2021 Huawei Technologies Co., Ltd.
+
+  Permission is hereby granted, free of charge, to any person obtaining a
+  copy of this software and associated documentation files (the
+  "Software"), to deal in the Software without restriction, including
+  without limitation the rights to use, copy, modify, merge, publish,
+  distribute, sublicense, and/or sell copies of the Software, and to
+  permit persons to whom the Software is furnished to do so, subject to
+  the following conditions:
+
+  The above copyright notice and this permission notice shall be included
+  in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+  OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Note: the containing repository (huawei-noah/trustworthyAI) is licensed
+Apache-2.0 at its root. The per-file MIT notice above governs this specific
+file; see UPSTREAM.md for the full assessment of what is adapted from it.

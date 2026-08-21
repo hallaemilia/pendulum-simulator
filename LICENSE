@@ -1,0 +1,43 @@
+This repository's own contributions (package structure, CLI, manifest
+format, tests, documentation, and the independently written
+pendulum_counterfactuals/scm.py, interventions.py, dataset.py,
+verification.py, and cli.py modules) are proposed to be licensed under the
+MIT License below.
+
+STATUS: this is a DRAFT recommendation, not yet finalized. The source
+dissertation repository this project was extracted from does not itself
+establish a license, so the maintainer (Halla Emilia Ingolfsdottir) has not
+yet confirmed a final choice. Do not treat this file as a final license
+grant until that confirmation happens and this notice is removed.
+
+---
+
+MIT License
+
+Copyright (c) 2026 Halla Emilia Ingolfsdottir
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+---
+
+Parts of this software (the Pendulum renderer and the "huawei-grid" preset
+constants) are adapted from a Huawei Technologies Co., Ltd. file licensed
+under the MIT License. See THIRD_PARTY_LICENSES/ and UPSTREAM.md for the
+exact notice, the full applicable terms, and a precise account of what is
+adapted versus independently written.

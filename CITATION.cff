@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. If you use the Pendulum structural causal model or renderer, also cite the CausalVAE paper it originates from, and the DEAR paper if you use the 'paper' preset's root priors."
+title: "pendulum-counterfactuals: Deterministic Paired Factual/Counterfactual Pendulum Generation"
+version: 0.1.0
+date-released: 2026-08-18
+authors:
+  - family-names: Ingolfsdottir
+    given-names: Halla Emilia
+references:
+  - type: conference-paper
+    title: "CausalVAE: Disentangled Representation Learning via Neural Structural Causal Models"
+    authors:
+      - family-names: Yang
+        given-names: Mengyue
+      - family-names: Liu
+        given-names: Furui
+      - family-names: Chen
+        given-names: Zhitang
+      - family-names: Shen
+        given-names: Xinwei
+      - family-names: Hao
+        given-names: Jianye
+      - family-names: Wang
+        given-names: Jun
+    conference:
+      name: "CVPR 2021"
+    year: 2021
+  - type: article
+    title: "Weakly Supervised Disentangled Generative Causal Representation Learning"
+    authors:
+      - family-names: Shen
+        given-names: Xinwei
+      - family-names: Liu
+        given-names: Furui
+      - family-names: Dong
+        given-names: Hanze
+      - family-names: Lian
+        given-names: Qing
+      - family-names: Chen
+        given-names: Zhitang
+      - family-names: Zhang
+        given-names: Tong
+    journal: "Journal of Machine Learning Research"
+    year: 2022
+    volume: 23
+    issue: 241
+    start: 1
+    end: 55
+    url: "http://jmlr.org/papers/v23/21-0080.html"
